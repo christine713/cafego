@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class WebPage {
 	//hihi
 	//hihihi
-	//hihihihih
+	//hihihihihiiiii
 	public String url;
 	public String name;
 	public WordCounter counter;
