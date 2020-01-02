@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class WebPage {
-	//hihi
-	//hihihi
-	//hihiiiiiii
 	public String url;
 	public String name;
 	public WordCounter counter;
