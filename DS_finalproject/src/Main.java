@@ -1,4 +1,3 @@
-
 import java.io.IOException;
 import java.net.*;
 import java.io.*;
@@ -27,7 +26,7 @@ public class Main {
 		}
 		System.out.println("Please type the MRT name:");
 		String mrtName = sc.next();
-		String search = mrtName + "å’–å•¡å»³";
+		String search = mrtName + "©@°ØÆU";
 		HashMap<String, String> reV = new GoogleQuery(search).query();
 		//try {
 		//	System.out.println(new GoogleQuery(search).query());
@@ -67,13 +66,13 @@ public class Main {
 //public class Main {
 //
 //	public static void main(String[] args) throws IOException {
-//		//æŠŠhw3æ”¹æˆè¼¸å…¥keyword é€£æ¥google ç®—å‡ºcount
-//		System.out.println("Please type: æ·é‹ç«™å");
+//		//§âhw3§ï¦¨¿é¤Jkeyword ³s±µgoogle ºâ¥Xcount
+//		System.out.println("Please type: ±¶¹B¯¸¦W");
 //		Scanner sc = new Scanner(System.in);
 //		while(sc.hasNextLine()){
 //		    String station = sc.next();
 //			try {
-//				HashMap<String,String> query=new GoogleQuery(station + "å’–å•¡å»³").query();
+//				HashMap<String,String> query=new GoogleQuery(station + "©@°ØÆU").query();
 //			} catch (IOException e) {
 //				// TODO Auto-generated catch block
 //				e.printStackTrace();
