@@ -12,7 +12,7 @@ public class Main {
 		while(sc.hasNextLine()){
 		    String station = sc.next();
 			try {
-				HashMap<String,String> query=new GoogleQuery("NCCU").query();
+				HashMap<String,String> query=new GoogleQuery(station + "咖啡廳").query();
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

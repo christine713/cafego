@@ -94,26 +94,19 @@ public class GoogleQuery
 		lis = lis.select(".ZINbbc");//select搜尋class名
 		System.out.println(lis.size());
 		
-		
-		for(Element li : lis)
-		{
 			try 
 
 			{
-				System.out.println(li.select(".BNeawe").get(0).text());
-				System.out.println(li.select("a").get(0).attr("href"));
-				for(int i = 0 ; i < block.size(); i++)
-					System.out.println(block.get(i).text());
-				
-				System.out.println(block.get(1).text());
-				System.out.println(block.get(2).text());
-				
-				String title = block.get(1).text();
-				String citeUrl = block.get(2).text();
+		
+				for(int i = 0 ; i < lis.size(); i++) {
+			
+				String title = lis.get(i).select(".BNeawe").get(0).text();
+				String citeUrl = lis.get(i).select("a").get(0).attr("href");
 				
 				System.out.println(title+" "+citeUrl);
 
 				retVal.put(title, citeUrl);
+				}
 
 				
 
@@ -125,7 +118,7 @@ public class GoogleQuery
 
 			
 
-		}
+		
 
 		
 
