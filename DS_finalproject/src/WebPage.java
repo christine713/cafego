@@ -17,7 +17,7 @@ public class WebPage {
 	public void setScore(ArrayList<Keyword> keywords) throws IOException{
 		score = 0;
 		for(Keyword k : keywords){			
-			score += counter.countKeyword(k.name)* k.count;	
+			score += counter.countKeyword(k.name)* k.weight;	
 		}
 	}
 	
