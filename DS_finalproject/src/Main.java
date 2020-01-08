@@ -13,7 +13,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException ,NullPointerException{
 		// TODO Auto-generated meth 
-		//WHYYYYYYYY 23456789113
+		//WHYYYYYYYY 2345678911
 		
 		Scanner sc = new Scanner(System.in);
 		
