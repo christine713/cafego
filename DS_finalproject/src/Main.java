@@ -13,7 +13,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException ,NullPointerException{
 		// TODO Auto-generated method stub
-		//WHYYYYYYYY 23456789101234567s8
+		//WHYYYYYYYY 23456789101234567s
 		
 		Scanner sc = new Scanner(System.in);
 		
