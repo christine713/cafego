@@ -13,7 +13,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException ,NullPointerException{
 		// TODO Auto-generated method stub
-		//WHYYYYYYYY 2345678910123
+		//WHYYYYYYYY 23456789101234
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Please type the number of keywords:");
