@@ -12,7 +12,7 @@ import javax.lang.model.util.Elements;
 public class Main {
 
 	public static void main(String[] args) throws IOException ,NullPointerException{
-		// TODO Auto-generated me 
+		// TODO Auto-generated 
 		
 	
 		Scanner sc = new Scanner(System.in);
