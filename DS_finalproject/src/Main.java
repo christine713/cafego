@@ -13,7 +13,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException ,NullPointerException{
 		// TODO Auto-generated method stub
-		
+		//WHYYYYYYYY
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Please type the number of keywords:");
@@ -29,7 +29,7 @@ public class Main {
 		}
 		System.out.println("Please type the MRT name:");
 		String mrtName = sc.next();
-		String search = mrtName + "咖啡廳";
+		String search = mrtName + "��撱�";
 		
 //		GoogleQuery ya = new GoogleQuery(search);
 //		ya.NextPageUrl();
@@ -85,7 +85,7 @@ public class Main {
 			}
 		}
 		
-		List<Map.Entry<String, Double>> qlist = new ArrayList<Map.Entry<String, Double>>(querys.entrySet()); //轉換為list
+		List<Map.Entry<String, Double>> qlist = new ArrayList<Map.Entry<String, Double>>(querys.entrySet()); //頧�list
 		qlist.sort(new Comparator<Map.Entry<String, Double>>() {
 	          @Override
 	          public int compare(Map.Entry<String, Double> o1, Map.Entry<String, Double> o2) {
@@ -94,7 +94,6 @@ public class Main {
 	      });
 		
 		System.out.println(qlist);
-		
 		}
 		
 	}
