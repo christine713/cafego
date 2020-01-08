@@ -14,7 +14,7 @@ public class Main {
 	public static void main(String[] args) throws IOException ,NullPointerException{
 		// TODO Auto-generated method stub
 		//WHYYYYYYYY 23456789101234567s8901123456789
-		//12345678910123
+		//12345678910123ˋ4
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Please type the number of keywords:");
@@ -30,7 +30,7 @@ public class Main {
 		}
 		System.out.println("Please type the MRT name:");
 		String mrtName = sc.next();
-		String search = mrtName + "��撱�";
+		String search = mrtName + "嚙踝蕭謘澗�嚙�";
 		
 //		GoogleQuery ya = new GoogleQuery(search);
 //		ya.NextPageUrl();
@@ -86,7 +86,7 @@ public class Main {
 			}
 		}
 		
-		List<Map.Entry<String, Double>> qlist = new ArrayList<Map.Entry<String, Double>>(querys.entrySet()); //頧�list
+		List<Map.Entry<String, Double>> qlist = new ArrayList<Map.Entry<String, Double>>(querys.entrySet()); //��嚙踐�冪list
 		qlist.sort(new Comparator<Map.Entry<String, Double>>() {
 	          @Override
 	          public int compare(Map.Entry<String, Double> o1, Map.Entry<String, Double> o2) {
